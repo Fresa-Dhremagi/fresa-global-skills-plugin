@@ -1,1 +1,21 @@
 
+{
+  "name": "fresa-global-skills-plugin",
+  "interface": {
+    "displayName": "Fresa Global Skills Plugin"
+  },
+  "plugins": [
+    {
+      "name": "fresa-sales-module",
+      "source": {
+        "source": "local",
+        "path": "./plugins/fresa-sales-module"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
