@@ -1,7 +1,9 @@
-
- { "plugins": 
-   [ 
-     { "path": "fresa-sales-plugin" 
-     } 
-   ] 
- }
+{
+  "version": "1.0.0",
+  "name": "Fresa Global Skills Plugin",
+  "plugins": [
+    {
+      "path": "."
+    }
+  ]
+}
