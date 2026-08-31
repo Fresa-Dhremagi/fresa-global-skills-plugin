@@ -1,1 +1,23 @@
 
+{
+  "name": "fresa-sales-module",
+  "version": "1.0.0",
+  "description": "AI agent for Fresa Sales module — navigates menus, fills forms, selects LOVs, and automates tasks in the Fresa freight forwarding application.",
+  "author": {
+    "name": "Dhremagi",
+    "email": "dhremagi@fresa.com",
+    "url": "https://github.com/Fresa-Dhremagi"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Fresa Sales Module",
+    "shortDescription": "Automates Fresa Sales workflows",
+    "developerName": "Fresa-Dhremagi",
+    "category": "Productivity",
+    "defaultPrompt": [
+      "Open All Quotations for this month",
+      "Create a new Call Sheet",
+      "Show Sales Leads for this week"
+    ]
+  }
+}
