@@ -1,19 +1,26 @@
-
 {
   "name": "fresa-sales-module",
   "version": "1.0.0",
-  "description": "AI agent for Fresa Sales module — navigates menus, fills forms, selects LOVs, and automates tasks in the Fresa freight forwarding application.",
+  "description": "AI agent for Fresa Sales module that navigates menus, fills forms, selects LOVs, and automates tasks in the Fresa freight forwarding application.",
   "author": {
     "name": "Dhremagi",
     "email": "dhremagi@fresa.com",
     "url": "https://github.com/Fresa-Dhremagi"
   },
+  "homepage": "https://github.com/Fresa-Dhremagi/fresa-global-skills-plugin",
+  "repository": "https://github.com/Fresa-Dhremagi/fresa-global-skills-plugin",
+  "license": "MIT",
+  "keywords": ["fresa", "freight", "sales", "automation"],
   "skills": "./skills/",
   "interface": {
     "displayName": "Fresa Sales Module",
     "shortDescription": "Automates Fresa Sales workflows",
+    "longDescription": "AI agent for Fresa Sales module that navigates menus, fills forms, selects LOVs, and automates tasks in the Fresa freight forwarding application.",
     "developerName": "Fresa-Dhremagi",
     "category": "Productivity",
+    "websiteURL": "https://github.com/Fresa-Dhremagi/fresa-global-skills-plugin",
+    "privacyPolicyURL": "https://github.com/Fresa-Dhremagi/fresa-global-skills-plugin",
+    "termsOfServiceURL": "https://github.com/Fresa-Dhremagi/fresa-global-skills-plugin",
     "defaultPrompt": [
       "Open All Quotations for this month",
       "Create a new Call Sheet",
