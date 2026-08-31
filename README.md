@@ -1,0 +1,1 @@
+# fresa-global-skills-plugin
