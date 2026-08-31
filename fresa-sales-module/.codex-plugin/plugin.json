@@ -1,1 +1,22 @@
 
+{
+  "id": "fresa-sales-module",
+  "name": "fresa-sales-module",
+  "version": "0.1.0",
+  "description": "Guided workflows for Fresa freight-forwarding sales activities.",
+  "author": {
+    "name": "Fresa-Dhremagi"
+  },
+  "interface": {
+    "displayName": "Fresa Sales Module",
+    "shortDescription": "Fresa sales workflows for call sheets, leads, and quotations.",
+    "longDescription": "Guides Fresa Sales Module navigation, filtering, and record creation while enforcing required-field and control-selection rules.",
+    "developerName": "Fresa-Dhremagi",
+    "category": "Productivity",
+    "defaultPrompt": [
+      "Help me navigate the Fresa Sales Module.",
+      "Create a Fresa call sheet from my details.",
+      "Find Fresa quotations using specified filters."
+    ]
+  }
+}
